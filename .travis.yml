@@ -1,0 +1,7 @@
+language: java
+
+service:
+  - mysql
+  
+before_install:
+  - mysql -e "CREATE DATABASE newstream;"
